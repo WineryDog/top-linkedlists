@@ -29,4 +29,3 @@ list.insertAt('baz', 8); // Index out of bounds
 console.log(list.toString()); // ( foo ) -> ( A ) -> ( bar ) -> ( B ) -> null
 list.removeAt(2);
 console.log(list.toString()); // ( foo ) -> ( A ) -> ( B ) -> null
-list.removeAt(5);
